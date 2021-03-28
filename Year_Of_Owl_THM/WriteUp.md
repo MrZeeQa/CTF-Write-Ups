@@ -41,6 +41,7 @@ Van de output hierboven kom ik tot de conclusie dat we te maken hebben met een w
 
 ![](./Images/screenie.png)
 
+
 ## Directory enumeration
 
 Nu ga ik een listing van de directorys op de webserver enumeraten.
