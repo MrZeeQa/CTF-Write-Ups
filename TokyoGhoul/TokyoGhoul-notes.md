@@ -99,7 +99,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 
 De website vertelt het verhaale over een anime-jongen:
 
-[](Images/Screen_Web-enum.png)
+![alt text](Images/Screen_Web-enum.png)
 
 
 ## FTP
@@ -158,7 +158,7 @@ That mean you got her kagune , so you should activate her Kagune and to do that 
 Bye Kaneki.
 ```
 
-[](Images/rize_and_kaneki.jpg)
+![alt text](Images/rize_and_kaneki.jpg)
 
 ```shell
 ┌──(root💀kali)-[~/CTF-Write-Ups/TokyoGhoul/Images]
@@ -195,7 +195,7 @@ _ITM_registerTMCloneTable
 u/UH
 You_founH
 d_1t
-[]A\A]A^A_
+![alt text]A\A]A^A_
 kamishiro
 Hey Kaneki finnaly you want to talk 
 Unfortunately before I can give you the kagune you need to give me the paraphrase
@@ -242,11 +242,11 @@ wrote extracted data to "yougotme.txt".
 
 In de afbeelding zit dus een soort morsecode-bericht in verwerkt. Cyberchef is hier de oplossing voor:
 
-[](Images/screen-cyberchef.png)
+![alt text](Images/screen-cyberchef.png)
 
 Dat wijst erop dat het een folder op de website is, maar de webpagina heeft geen nuttige informatie:
 
-[](Images/screen-decodedfolder.png)
+![alt text](Images/screen-decodedfolder.png)
 
 Gobuster opnieuwe uitvoeren op de webserver maar dan vertrekkende vanuit de folder die we uit cyberchef kregen, levert ons nog een verborgen folder op:
 
@@ -270,13 +270,13 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 /claim                (Status: 301) [Size: 331] [--> http://10.10.169.251/d1r3c70ry_center/claim/]
 ```
 
-[](Images/screen-claimsite.png)
+![alt text](Images/screen-claimsite.png)
 
 Op 'Yes' of 'no' klikken verwijst ons door naar /index.php?view=flower.gif
 
 Daar zou een lfi toch zeer goed zijn werk mee kunnen doen: ../../../../../../..//etc/passwd
 
-[](Images/screen-lfiexploit.png)
+![alt text](Images/screen-lfiexploit.png)
 
 Wel dan spring geljk maar over naar het URL encoden van de lfi:
 
@@ -284,7 +284,7 @@ Wel dan spring geljk maar over naar het URL encoden van de lfi:
 %2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2Fetc%2Fpasswd
 ```
 
-[](Images/screen-lfisucces.png)
+![alt text](Images/screen-lfisucces.png)
 
 Wachtwoordhashes... Dat betekent dat we JTR (John The Ripper) kunnen gebruiken voor het kraken van de hashes
 
