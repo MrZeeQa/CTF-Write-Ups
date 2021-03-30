@@ -4,6 +4,11 @@ author: Nicolas Bouquiaux
 date: "2021-03-30"
 subject: "Markdown"
 keywords: [Markdown, Example]
+titlepage: true
+titlepage-text-color: "FFFFFF"
+titlepage-color: "0c0d0e"
+toc: true
+toc-own-page: true
 ...
 
 # Vulnversity - Write-up
