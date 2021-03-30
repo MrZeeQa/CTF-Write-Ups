@@ -2,7 +2,12 @@
 title: "Try Hack Me - Vulnversity"
 author: Nicolas Bouquiaux
 date: "2021-03-30"
+<<<<<<< HEAD
 subject: "Notes CTF-challenge"
+=======
+subject: "Markdown"
+keywords: [Markdown, Example]
+>>>>>>> 46631b2e1513fc252a4c41d5c9cbcf152bc449bd
 titlepage: true
 titlepage-text-color: "FFFFFF"
 titlepage-color: "0c0d0e"
