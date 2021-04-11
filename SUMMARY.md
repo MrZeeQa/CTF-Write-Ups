@@ -6,5 +6,5 @@
 * [TryHackMe - Anonymous](notes.md)
 * [Vulnversity - Write-up](vulnversity-1.md)
 * [THM Blog - Write-up \(NL\)](thm-blog-write-up.md)
-* [THM - Ustoun - Write-up\(NL\)](untitled.md)
+* [THM - Ustoun - Write-up\(NL\)](thm.md)
 
